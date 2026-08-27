@@ -22,7 +22,7 @@ const HeroCaracteristicas = ({ history }) => {
             <Row gutter={[48, 0]} align="center" >
                 <Col xs={11} md={9}  >
                     <div style={{ width: '100%', border: '1px  #7A7C7E', padding: '5px', borderRadius: ".5rem" }}>
-                        <Image className="izquierda" alt="example" style={{ borderRadius: ".5rem" }} src={`../imagenes/heroes/${id}.jpg`} />
+                        <Image className="izquierda" alt="example" style={{ borderRadius: ".5rem" }} src={`/imagenes/heroes/${id}.jpg`} />
                     </div>
                 </Col>
                 <Col xs={13} md={15} className="derecha" >

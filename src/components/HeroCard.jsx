@@ -12,7 +12,7 @@ const HeroCard = ({ id, superhero, publisher, alter_ego, first_appearance, chara
                     hoverable
                     id="tarjeta"
                     className="derecha"
-                    cover={<Image alt={superhero} width="100%" height="100%" src={`../imagenes/heroes/${id}.jpg`} />}
+                    cover={<Image alt={superhero} width="100%" height="100%" src={`/imagenes/heroes/${id}.jpg`} />}
                 >
                     <Meta style={{ color: "white" }}  title={superhero} description={publisher} />
                     <br />

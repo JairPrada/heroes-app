@@ -61,7 +61,7 @@ const Login = ({ history }) => {
 
     return (
         <Fragment>
-            <Row align="center" justify="middle" style={{ minHeight: "100vh", width: "100%", backgroundImage: `url('../../Imagenes/fondo.jpg')`, backgroundSize: "cover" }}>
+            <Row align="center" justify="middle" style={{ minHeight: "100vh", width: "100%", backgroundImage: `url('/imagenes/fondo.jpg')`, backgroundSize: "cover" }}>
                 <Col xs={18} sm={12} lg={10} style={{ background: "#0E1215F2", borderRadius: "5px", padding: "50px 0px" }}>
                     <Row align="center" >
                         <Col xs={20}>
