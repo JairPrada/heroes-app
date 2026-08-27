@@ -58,6 +58,10 @@ const Login = ({ history }) => {
             iniciar(resultado.user)
         }
     }
+    const Invitado = () => {
+        message.success("Bienvenido a Heroes App amigo");
+        iniciar({ usuario: { displayName: "Invitado", email: "invitado@heroes.app", uid: "guest" } })
+    }
 
     return (
         <Fragment>
@@ -92,6 +96,9 @@ const Login = ({ history }) => {
                             </p>
                             <p>
                                 <Button type="primary" style={{ background: "#3A6FE5", width: "90%", borderRadius: "2rem", border: "none" }} onClick={Facebook} icon={<FacebookFilled />}>Continuar con Facebook</Button>
+                            </p>
+                            <p>
+                                <Button style={{ width: "90%", borderRadius: "2rem", border: "none" }} onClick={Invitado}>Continuar como invitado</Button>
                             </p>
                             <p style={{ color: "white" }}>
                                 ¿Aún no estás en HeroesApp?  <Link to="/signin" >Regístrate</Link>
